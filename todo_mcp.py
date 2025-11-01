@@ -4,7 +4,7 @@ from typing import Annotated, NamedTuple
 
 # Load the fake DB
 todo_db = TodoDB()
-todo_db.sample_data()
+# todo_db.sample_data()
 
 
 # instead of BaseModel
@@ -64,9 +64,9 @@ def get_todos_for_file(
 
 
 # Start the MCP
-def run():
+def main():
     mcp.run()
 
 
 if __name__ == "__main__":
-    run()
+    main()
