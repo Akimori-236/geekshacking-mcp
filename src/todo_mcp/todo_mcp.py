@@ -1,5 +1,5 @@
 from fastmcp import FastMCP
-from todo_db import TodoDB  # our fake database
+from .todo_db import TodoDB  # our fake database
 from typing import Annotated, NamedTuple
 
 # Load the fake DB
