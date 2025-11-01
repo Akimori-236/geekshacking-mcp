@@ -77,3 +77,12 @@ Copy the following file into the workshop directory
 https://drive.google.com/file/d/1agUEwpR5Za9z6ljb4_ZO3md6KXM8M-g9/view?usp=drive_link
 
 Initialise the directory as a Git repo, commit the changes and push it to your favourite Git repository.
+
+## RUN - UVX
+
+`uvx --from "git+https://github.com/Akimori-236/geekshacking-mcp.git" todo_mcp`
+
+## RUN
+
+- `fastmcp dev todo_mcp.py` for MCP inspector site
+- `fastmcp run todo_mcp.py`
